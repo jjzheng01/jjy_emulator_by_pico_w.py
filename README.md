@@ -1,7 +1,7 @@
 # JJY Signal Emulator by Raspberry Pico W
 
 ## 1 Introduction
-This emulator can emit JJY signal at 40kHz or 60kHz <sup>[1]</sup>. It can be used to provide the synchronization signal to the clocks or the watches in case that there is no JJY signal or the JJY signal is too weak to be picked up <sup>[2]</sup>, such as in the basement of the buildings/houses or in other countries other than Japan.
+This emulator can emit JJY signal at 40kHz or 60kHz <sup>[1]</sup>. It can be used to provide the synchronization signal to the clocks or the watches in case that there is no JJY signal or the JJY signal is too weak to be picked up <sup>[2]</sup>, such as in the basement of the buildings/houses or in other countries other than Japan. This emulator emits the JJY signal, which is received successfully by SEIKO SQ699W from 8 meters away.
 
 ## 2 Hardware
 This emulator consists of one Raspberry Pico W, one loop antenna and one USB A to USB micro-B cable. The 2.4GHz 802.11n WiFi signal and one 5V USB power supply should be available so that the emulator can function properly. This emulator can operate around the clock automatically. The current consumption is 1.58mA most of the time because it is in the deep sleep mode <sup>[3]</sup>.  

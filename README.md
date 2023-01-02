@@ -27,7 +27,7 @@ Pico W is small enough to be place inside the base of the loop antenna nicely. A
 The firmware is written in microPython <sup>[6]</sup>. It connects the Pico W to the internet through WiFi access point, synchronizes the local time with the time server through NTP, composes and emits the JJY signal. The computer or the notebook with either windows or IOS and the software Thonny are needed to program the Pico W <sup>[7]</sup>.
 
 ### 3.1 WiFi Connection
-Connecting to the WiFi access point is straight-forwarded as the example code from Raspberry website is quite useful. The only modification is to increase the waiting time to 20 seconds to get more robust coding.  
+Connecting to the WiFi access point is straight-forward as the example code from Raspberry website is quite useful. The only modification is to increase the waiting time to 20 seconds to get more robust coding.  
   
 To save power, the WiFi module is turn off by set PIN23 to low once the local time is synchronized or in deep sleep mode.
 
